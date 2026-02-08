@@ -10,12 +10,12 @@ Restaurant ratings influence customer decisions, brand value, and revenue.
 The goal of this project is to build predictive models that estimate ratings based on features such as cuisine, cost, location, and services offered.
 
 This repository walks through the complete ML lifecycle:
-✔ Data collection  
-✔ Data cleaning & preprocessing  
-✔ Exploratory Data Analysis  
-✔ Feature engineering  
-✔ Model building  
-✔ Performance evaluation  
+- Data collection  
+- Data cleaning & preprocessing  
+- Exploratory Data Analysis  
+- Feature engineering  
+- Model building  
+- Performance evaluation  
 
 ---
 
