@@ -1,4 +1,4 @@
-# Restaurant Rating Prediction using Machine Learning [ONGOING]
+# Restaurant Rating Prediction using Machine Learning
 
 Unlock the power of data science through a hands-on project focused on predicting restaurant ratings.  
 This project demonstrates how machine learning can analyze historical data and accurately forecast customer satisfaction in the food industry.
