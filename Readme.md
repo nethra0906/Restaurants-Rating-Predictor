@@ -33,4 +33,5 @@ This repository walks through the complete ML lifecycle:
 - NumPy  
 - Pandas  
 - Matplotlib / Seaborn  
-- Scikit-learn  
+- Scikit-learn
+- Streamlit
