@@ -3,6 +3,12 @@ import numpy as np
 from sklearn.preprocessing import StandardScaler
 import joblib
 
+st.set_page_config(
+    page_title="Restaurant Rating Predictor",   
+    page_icon="🍽️",             
+    layout="wide"               
+)
+
 st.set_page_config(layout= "wide")
 
 scaler = joblib.load("scaler.pkl")
