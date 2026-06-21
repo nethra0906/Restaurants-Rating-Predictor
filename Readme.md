@@ -1,4 +1,4 @@
-# Restaurant Intelligence Platform
+# Restaurant Rating Prediction using Machine Learning
 
 A machine learning system that predicts restaurant ratings **and** explains *why* — giving actionable insights to restaurant owners and operators.
 
@@ -29,14 +29,9 @@ Most restaurant-rating projects stop at "predict a number." This project goes fu
 ---
 
 ## Tech Stack
-
-Python · Scikit-learn · SHAP · Streamlit · Pandas · Matplotlib · Seaborn · Joblib
-
----
-
-## Run Locally
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-```
+- Python  
+- NumPy  
+- Pandas  
+- Matplotlib / Seaborn  
+- Scikit-learn
+- Streamlit
