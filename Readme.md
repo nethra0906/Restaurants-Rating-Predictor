@@ -1,36 +1,42 @@
-# Restaurant Rating Prediction using Machine Learning [ONGOING]
+# Restaurant Intelligence Platform
 
-Unlock the power of data science through a hands-on project focused on predicting restaurant ratings.  
-This project demonstrates how machine learning can analyze historical data and accurately forecast customer satisfaction in the food industry.
-
----
-
-## Project Overview
-Restaurant ratings influence customer decisions, brand value, and revenue.  
-The goal of this project is to build predictive models that estimate ratings based on features such as cuisine, cost, location, and services offered.
-
-This repository walks through the complete ML lifecycle:
-- Data collection  
-- Data cleaning & preprocessing  
-- Exploratory Data Analysis  
-- Feature engineering  
-- Model building  
-- Performance evaluation  
+A machine learning system that predicts restaurant ratings **and** explains *why* — giving actionable insights to restaurant owners and operators.
 
 ---
 
-## Objectives
-- Understand real-world ML workflow  
-- Apply preprocessing techniques to messy datasets  
-- Compare multiple algorithms  
-- Evaluate models using appropriate metrics  
-- Generate actionable insights from data  
+## What Makes This Different
+
+Most restaurant-rating projects stop at "predict a number." This project goes further:
+
+- **SHAP Explainability** — understand *which features* drive each prediction
+- **What-If Scenarios** — simulate adding table booking or delivery and see the rating impact
+- **Market Benchmarking** — compare your restaurant against city-level averages
+- **Business Insights Engine** — auto-generated recommendations based on your inputs
+- **Model Comparison Dashboard** — visual comparison of 6 ML algorithms
+
+---
+
+## ML Pipeline
+
+| Stage | Detail |
+|---|---|
+| Algorithms | Linear Regression, SVR, Decision Tree, Random Forest, KNN, AdaBoost |
+| Tuning | GridSearchCV with cross-validation |
+| Best Model | Random Forest Regressor |
+| Explainability | SHAP TreeExplainer |
+| Metrics | MAE, RMSE |
 
 ---
 
 ## Tech Stack
-- Python  
-- NumPy  
-- Pandas  
-- Matplotlib / Seaborn  
-- Scikit-learn  
+
+Python · Scikit-learn · SHAP · Streamlit · Pandas · Matplotlib · Seaborn · Joblib
+
+---
+
+## Run Locally
+
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+```
